@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.App-logo2 {
+  height: 20vmin;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +26,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header2 {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: black;
+}
+
+.App-footer{
+  min-height: 25px;
+  color: black;
+  background-color: #FAFAFA;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align:right;
 }
 
 .App-link {
